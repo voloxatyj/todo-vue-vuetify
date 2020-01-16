@@ -1,1 +1,5 @@
+ * linguist-vendored
  *.* linguist-language=Vue.js
+ *.css linguist-detectable=false
+ *.js linguist-detectable=false
+ *.html linguist-detectable=false
