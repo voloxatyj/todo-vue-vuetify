@@ -1,27 +1,2 @@
-<template>
-  <v-app flat class="grey">
-    <Navbar />
-    <v-content class="mx-4 mb-4">
-      <router-view/>
-    </v-content>
-  
-  </v-app>
-</template>
-
-<script>
-import Navbar from './components/Navbar'
-
-export default {
-  name: 'App',
-  components: {Navbar},
-  data: () => ({
-    //
-  }),
-};
-</script>
-
-<style>
-.grey {
-  background: #F5F5F5 !important;
-}
-</style>
+* linguist-vendored
+*.vue linguist-vendored=true
